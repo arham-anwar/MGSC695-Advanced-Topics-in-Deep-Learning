@@ -1,0 +1,104 @@
+# Ignore model checkpoints
+*.ckpt
+
+# Ignore TensorFlow event files
+events.out.tfevents.*
+
+# Ignore PyTorch model files
+*.pt
+*.pth
+
+# Ignore TensorFlow SavedModel directory
+saved_model/
+
+# Ignore Keras model files
+*.hdf5
+
+# Ignore large dataset files
+*.csv
+*.tsv
+*.dat
+*.db
+*.sqlite
+
+# Ignore Excel files
+*.xls
+*.xlsx
+*.xlsm
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.bak
+*.old
+
+# Ignore binaries and executables
+*.exe
+*.dll
+*.so
+*.o
+*.a
+*.out
+
+# Ignore large media files
+*.mp4
+*.mkv
+*.avi
+*.mp3
+*.wav
+*.flac
+
+# Ignore package files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Ignore image files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+
+# Ignore environment files
+.env
+.venv/
+env/
+venv/
+
+# Ignore build directories
+build/
+dist/
+*.egg-info/
+
+# Ignore node_modules (if using Node.js)
+node_modules/
+
+# Ignore TensorFlow models and checkpoints
+checkpoints/
+tensorflow/
+model.ckpt-*
+
+# Ignore PyTorch models and checkpoints
+checkpoints/
+pytorch/
+*.pt
+*.pth
+
+# Ignore HDF5 files
+*.h5
+
+# Ignore other large files
+# Add any other specific files or patterns you want to ignore
